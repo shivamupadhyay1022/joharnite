@@ -25,8 +25,10 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import profilepic from "./profile_male.svg"
+import maghe from "./maghe.png"
 
 export {
+  maghe,
   profilepic,
   airbnb,
   bill,

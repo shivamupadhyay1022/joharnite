@@ -6,7 +6,7 @@ import { ref, set } from "firebase/database";
 import styles from "../style";
 import { NavLink } from "react-router-dom";
 
-const SignUp = () => {
+const SignUpJohar = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [password, setPassword] = useState("");
@@ -31,8 +31,7 @@ const SignUp = () => {
             city:city,
             state: state,
             payment: false,
-            event1:"",
-            event2:""
+            eventparticipate:"JoharNite"
           });
         })
         .catch((error) =>setError(error));
@@ -72,18 +71,26 @@ const SignUp = () => {
         <button>Sign Up</button>
       </form> */}
 
-      <div>
+      <div className="mt-4 ">
                 <a href="/">
-                    <h3 className="text-4xl font-bold text-purple-600">
-                    <span className="text-gradient">SignUp</span>
-               </h3>
+
+                    <div className="flex">
+                    <span className="text-gradient">
+                        <h4 className="font-poppins font-semibold text-[40px] leading-[32px] text-white">
+                            JoharNite
+                            </h4></span>
+
+                            <p className="font-poppins font-normal text-[16px] leading-[24px] text-white">
+                            2023
+                            </p>
+                        </div>
                 </a>
                 {error && <div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
                   <p class="font-bold">Be Warned</p>
                   <p>Something not ideal might be happening.</p>
                 </div>}
             </div>
-            <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white shadow-md sm:max-w-lg sm:rounded-lg">
+            <div className="w-full px-6 py-4 my-6 overflow-hidden bg-white shadow-md sm:max-w-lg sm:rounded-lg">
                 <form className="signupForm" onSubmit={handleSubmit}>
                     <div>
                         <label
@@ -293,4 +300,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUpJohar;

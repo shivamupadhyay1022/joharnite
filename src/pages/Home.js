@@ -8,6 +8,7 @@ import CardDeal from "../components/CardDeal"
 import Billing from "../components/Billing"
 import CTA from "../components/CTA"
 import Footer from "../components/Footer"
+import Testimonials from "../components/Testimonials"
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -26,7 +27,7 @@ const App = () => (
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-
+      <Testimonials />
       <Stats />
         <Business />
         <Billing />

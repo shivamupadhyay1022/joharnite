@@ -37,9 +37,9 @@ const Hero = () => {
 
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-          <button onClick={clickLogin}>
+          <a href="#events" >
                 <GetStarted />
-            </button>
+            </a>
             
           </div>
         </div>
@@ -66,9 +66,9 @@ const Hero = () => {
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-      <button onClick={clickLogin}>
+      <a href="#events" >
                 <GetStarted />
-            </button>
+            </a>
       </div>
     </section>
   );
