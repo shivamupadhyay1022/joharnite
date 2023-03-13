@@ -3,7 +3,7 @@ import styles from "../style";
 import { AuthContext } from "../contexts/AuthProvider";
 
 import FeedbackCard from "./FeedbackCard";
-import {logo} from "../assets"
+import {logo, maghe} from "../assets"
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -45,10 +45,10 @@ const Testimonials = () => {
     <div className="flex flex-wrap align-items-center sm:justify-start justify-center w-full  relative z-[1]">
     <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 ">
       <div className="flex">
-      <img src={logo} alt="johar-nite" className="w-[110.6px] h-[40.6px] object-contain" />
-      <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+      <img src={logo} alt="johar-nite" className="w-[160.6px] object-contain" />
+      {/* <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           JoharNite
-        </h4>
+        </h4> */}
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           2023
         </p>
@@ -65,10 +65,10 @@ const Testimonials = () => {
 
     <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
       <div className="flex">
-      <img src={logo} alt="maghe-susun" className="w-[110.6px] h-[40.6px] object-contain" />
-      <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+      <img src={maghe} alt="maghe-susun" className="w-[180.6px]  object-contain" />
+      {/* <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           MagheSusun
-        </h4>
+        </h4> */}
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           2023
         </p>

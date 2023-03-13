@@ -19,7 +19,7 @@ const Billing = () => (
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
        Where: - TOWER GROUND, UCIL, TURAMDIH, SUNDARNAGAR, JAMSHEDPUR, JHARKHAND<br className="sm:block hidden" />
-       When:-coming soon
+       When:-  From 24 to 26 March 2023
       </p>
 
       {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

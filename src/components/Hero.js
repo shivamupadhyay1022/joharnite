@@ -48,15 +48,13 @@ const Hero = () => {
           Is Here!.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        A harvest festival, Maghe is the biggest gathering of Ho, Oraon, Kisan and Kol tribes in Jharkhand. Observed
-         in honor of the village deity (Mother Goddess) who bestows upon them with good fortune and protects them from 
-         calami􀆟es and held during month of February.
+
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
 
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        {/* <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
